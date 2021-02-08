@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacts</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="article_new ">
+            <div class="topmenu">
+                <div class="p_articles">
+                    <div class="p_articles-contact">
+                        <h2>Адрес</h2>
+                        <p>г. МИнск,<br>
+                            ул. Мясникова 11а,<br>F
+                            1 этаж, оф. 125</p>
+                        <h2>Время работы</h2>
+                        <p>Пн.-Пт.: с 09:00 до 19:00</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h4>Как нас найти</h4>
+                <iframe src="https://nn.by/photos/generated/fb255334.png" width="500" height="200" style="border:0"
+                    allowfullscreen></iframe>
+            </div>
+            <h4>Обратная связь</h4>
+            <form class="contacts__form" action="feedback.php" method="post">
+                <label>Ваше имя:
+                    <input name="name" type="text" placeholder="Введите имя" autofocus>
+                </label>
+                <label>Контактный телефон:
+                    <input name="phone" type="tel" pattern="375-[2-9]{5}-[0-9]{4}"
+                        placeholder="Ваш телефон в формате 375-XXXXX-XXXX">
+                </label>
+                <label>Email:
+                    <input name="email" type="email" placeholder="Ваш e-mail">
+                </label>
+                <label>Вопрос:
+                    <textarea class="contacts__form-textarea" name="question" id="text-field" cols="60" rows="10"
+                        placeholder="Задайте нам свой вопрос"></textarea>
+                </label>
+                <button type="submit" value="Отправить">Отправить</button>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <ul class="rounded">
+            <li><a href="../index.html">Главная</a></li>
+            <li><a href="articles.html">Статьи</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="gallery.html">Галерея изображений</a></li>
+            <li><a href="registration.html">Регистрация</a></li>
+            <li><a href="page-nav.html">Навигация</a></li>
+        </ul>
+    </div>
+    <div class="footer">&copy; Bogaevskiy Dmitriy</div>
+    </div>
+</body>
+
+</html>
